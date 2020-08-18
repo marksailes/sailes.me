@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://sailes.me',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
+  title: 'Blog by Mark Sailes',
   subtitle: 'A lovely subtitle.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
