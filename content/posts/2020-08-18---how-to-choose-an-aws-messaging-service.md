@@ -23,7 +23,7 @@ there wasn't so much cross over between the messaging services. Now the ven diag
 
 So where to start?
 
-*Personally I start by asking: Will there be multiple consumers.*
+*Personally I start by asking: Will there be multiple consumers?*
 
 To expand on this further I mean will there be multiple separate system which want to consume this data. This is 
 important in order to differentiate between (SQS, Amazon MQ) and (Kinesis, MSK, SNS and EventBridge).
@@ -40,13 +40,7 @@ SQS is a true serverless service. You only pay for what you use, SQS scales tran
 fault tolerance built in and to top it off there are no servers to manage. Amazon MQ is server based, and you will have 
 to choose a cluster design which gives you the availability and fault tolerance your system requires. You will pay the 
 same amount whether your cluster is 10% utilised or 90%. So this decision comes down to whether there is some outside 
-reason why you need to use Amazon MQ. 
-
-
-
-
-
-
-
-
-
+reason why you need to use Amazon MQ. This is typically something like, the system is designed to use ActiveMQ and we 
+don't want to change it. If cost is a big concern then because we're comparing SQS's multi-tenanted, cellullar architect
+with a cluster of servers then in most cases SQS will be cheaper. This is especially true for unpreditable or bursty 
+traffic where AmazonMQ will have to be sized for peak.
