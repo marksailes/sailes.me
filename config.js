@@ -20,8 +20,8 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'Open Source',
+      path: '/pages/open-source'
     }
   ],
   author: {
