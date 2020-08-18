@@ -4,7 +4,7 @@ template: "page"
 socialImage: "/media/image-4.jpg"
 ---
 
-I contribute to a number of open source projects some of these are AWS projects and some are personal.
+I contribute to a number of open source projects some of these are AWS projects, some are personal.
 
 ### AWS Projects
 
