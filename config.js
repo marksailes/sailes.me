@@ -22,7 +22,11 @@ module.exports = {
     {
       label: 'Open Source',
       path: '/pages/open-source'
-    }
+    },
+         {
+           label: 'Books',
+           path: '/pages/books'
+         }
   ],
   author: {
     name: 'Mark Sailes',
