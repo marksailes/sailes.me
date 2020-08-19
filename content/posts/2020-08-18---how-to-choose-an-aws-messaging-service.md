@@ -2,7 +2,7 @@
 title: AWS Messaging
 date: "2020-08-18T23:46:37.121Z"
 template: "post"
-draft: false
+draft: true
 slug: "how-to-choose-an-aws-messaging-service"
 category: "Serverless Messaging"
 tags:
