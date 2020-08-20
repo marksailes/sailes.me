@@ -16,6 +16,10 @@ module.exports = {
       path: '/'
     },
     {
+      label: 'Start Right - SQS',
+      path: '/pages/sqs'
+    },
+    {
       label: 'About me',
       path: '/pages/about'
     },
