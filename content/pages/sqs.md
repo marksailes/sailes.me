@@ -8,10 +8,12 @@ A collection of useful information for developers, ops, architects and everyone 
 
 ## Serverless Ticklist
 
-![tick](/media/icons8-tick-box-48.png)No servers to maintain
-![tick](/media/icons8-tick-box-48.png)Scales with usage
-![tick](/media/icons8-tick-box-48.png)No cost for idle
-![tick](/media/icons8-tick-box-48.png)High availability and fault tolerant
+<ul>
+    <li><img src="/media/icons8-tick-box-48.png">No servers to maintain</li>
+    <li><img src="/media/icons8-tick-box-48.png">Scales with usage</li>
+    <li><img src="/media/icons8-tick-box-48.png">No cost for idle</li>
+    <li><img src="/media/icons8-tick-box-48.png">High availability and fault tolerant</li>
+</ul>
 
 ## Developer Tips
 
@@ -35,7 +37,7 @@ Reference: [Using AWS Lambda with Amazon SQS](https://docs.aws.amazon.com/lambda
 
 Top of my list of metrics to monitor are:
 
-ApproximateAgeOfOldestMessage - If this value is increasing then you are falling behind in processing.
+`ApproximateAgeOfOldestMessage` - If this value is increasing then you are falling behind in processing.
 
 ## Defaults to change
 
@@ -45,7 +47,7 @@ to 30s.
 ## Cost Optimization
 
 SQS charges per API call, batch API calls are charged at the same rate as standard ones. If you can use 
-SendMessageBatch, DeleteMessageBatch, and ChangeMessageVisibilityBatch then you'll reduce costs.
+`SendMessageBatch`, `DeleteMessageBatch`, and `ChangeMessageVisibilityBatch` then you'll reduce costs.
 
 ### With AWS Lambda
 
@@ -53,5 +55,5 @@ You can configure the Lambda integration to consume SQS in batches.
 
 ### With the SDK
 
-In almost all cases long polling will reduce your costs by making less calls to the ReceiveMessage API. The downside is 
+In almost all cases long polling will reduce your costs by making less calls to the `ReceiveMessage` API. The downside is 
 that your applicaiton needs to be able to handle the long idle times. This is best handled with a separate thread.
