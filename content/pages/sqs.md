@@ -6,14 +6,14 @@ socialImage: "/media/profile.jpg"
 
 ## Start Well - Amazon SQS
 
-A collection of useful information for developers, ops and builders.
+A collection of useful information for developers, ops, architects and everyone in-between.
 
 ### Serverless Ticklist
 
-![tick](media/icons8-tick-box-48.png) No servers to maintain
-![tick](media/icons8-tick-box-48.png) Scales with usage
-![tick](media/icons8-tick-box-48.png) No cost for idle
-![tick](media/icons8-tick-box-48.png) High availability and fault tolerant
+![tick](/media/icons8-tick-box-48.png) No servers to maintain
+![tick](/media/icons8-tick-box-48.png) Scales with usage
+![tick](/media/icons8-tick-box-48.png) No cost for idle
+![tick](/media/icons8-tick-box-48.png) High availability and fault tolerant
 
 ### Developer Tips
 
@@ -23,15 +23,15 @@ deletions.
 ### Scaling
 
 #### With AWS Lambda
+
 When used as an event source with AWS Lambda, the Lambda service will scale up the consuming processes as long as there
-are messages waiting.
+are messages waiting. These polling processes will automatically invoke your Lambda functions.
 
 This will increase by 60 additional batches per min.
 
 The maximum number of batches for a single event source is 1000
 
 Reference: [Using AWS Lambda with Amazon SQS](https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html)
-
 
 ### Monitoring
 
@@ -46,9 +46,12 @@ to 30s.
 
 ### Cost Optimization
 
+SQS charges per API call, batch API calls are charged at the same rate as standard ones. If you can use 
+SendMessageBatch, DeleteMessageBatch, and ChangeMessageVisibilityBatch then you'll reduce costs.
+
 #### With AWS Lambda
 
-When integrated with AWS Lambda reduce the number of invokes you make by consuming messages in batches.
+You can configure the Lambda integration to consume SQS in batches.
 
 #### With the SDK
 
