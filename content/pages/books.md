@@ -14,5 +14,5 @@ Books I've most recently enjoyed
 
 [Why I'm No Longer Talking to White People About Race](https://www.goodreads.com/book/show/33606119-why-i-m-no-longer-talking-to-white-people-about-race) by Reni Eddo-Lodge
 
-![The Establishment: And How They Get Away with It](https://covers.openlibrary.org/b/isbn/1846147190-M.jpg)
+![The Establishment: And How They Get Away with It](https://covers.openlibrary.org/b/isbn/1846147190-S.jpg)
 [The Establishment: And How They Get Away with It](https://www.goodreads.com/book/show/23120225-the-establishment) by Owen Jones
