@@ -23,3 +23,9 @@ There would some duds in the mix but in this post I'd like to talk about my favo
 [Tommee Tippee Nappy Bin](https://www.amazon.co.uk/Tommee-Tippee-Simplee-Sangenic-Disposal/dp/B00X590PSA/) - A present from my best friend, *essential*
  
 [Sleepyhead Nap Bed](https://www.johnlewis.com/sleepyhead-deluxe-silver-lining-baby-pod-0-8-months/p3128085) - Nap anywhere
+
+## 6+ Months
+
+[Ikea Highchair](https://www.amazon.co.uk/IKEA-Antilop-Highchair-Tray-White/dp/B0785GR43J/) - Absolutely *indestructible*.
+
+[Silver Cross Cot Mattress](https://www.johnlewis.com/silver-cross-premium-true-fit-tm-cotbed-mattress-140cm-x-70cm/p5089641) - We had a really hard time finding a mattress which actually fitted a cot bed properly. This one was great.
