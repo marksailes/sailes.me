@@ -32,8 +32,17 @@ There would some duds in the mix but in this post I'd like to talk about my favo
 
 [Grimm's Rainbow](https://www.babipur.co.uk/grimms-rainbow-twelve.html) - So much fun for kids and parents
 
+[CLoth Nappies](https://www.babaandboo.com/) - Not for the faint hearted, but easier once you get the hang of the extra washing
 
+## 1+ Year
 
+[Pikler Triangle](https://www.babipur.co.uk/triclimb-natural.html)
+
+## 2+ Years
+
+[Stokke Tripp Trapp Chair](https://www.stokke.com/GBR/en-gb/highchairs/tripp-trapp/1001.html) - A great chair for when Evie wanted to get in herself
+
+[Miri Slide](https://www.themodernnursery.com/products/triclimb-miri-slide-natural)
 
 
 
