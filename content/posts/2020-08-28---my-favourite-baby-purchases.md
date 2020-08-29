@@ -32,7 +32,7 @@ There would some duds in the mix but in this post I'd like to talk about my favo
 
 [Grimm's Rainbow](https://www.babipur.co.uk/grimms-rainbow-twelve.html) - So much fun for kids and parents
 
-[CLoth Nappies](https://www.babaandboo.com/) - Not for the faint hearted, but easier once you get the hang of the extra washing
+[Cloth Nappies](https://www.babaandboo.com/) - Not for the faint hearted, but easier once you get the hang of the extra washing
 
 ## 1+ Year
 
